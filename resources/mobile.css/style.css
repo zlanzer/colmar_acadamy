@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "hind siliguri";
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    height: 64px;
+    justify-content: space-around;
+}
+
+/* banner */
+
+.banner, .banner img{
+    width: 100%;
+}
+
+/* box1 */
+
+.box1 {
+    padding: 32px 16px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box1 h2 {
+    margin-bottom: 32px;
+}
+
+.start_here {
+    margin-top: 24px;
+    padding: 8px;
+    background-color: gray;
+}
