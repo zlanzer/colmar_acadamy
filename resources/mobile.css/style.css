@@ -9,7 +9,22 @@ html {
 }
 
 body {
-    font-family: "hind siliguri";
+    font-family: "hind siliguri", serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #404040;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #404040
+}
+
+p {
+    color: dimgray;
+    opacity: 0.8;
 }
 
 /* navigation */
@@ -86,4 +101,23 @@ nav {
     padding-bottom: 24px;
     background-color: lightgray;
     margin: 4px 0;
+}
+
+/* box4 */
+
+.box4 h2{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.box4 video {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+    margin: 16px;
 }
